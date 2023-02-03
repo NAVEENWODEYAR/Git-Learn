@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title> Input Type </title>
+
+        <style>
+            body{ background: #000; background-color: slateblue; background-position: 10mm;}
+        </style>
+    </head>
+
+    <body>
+        <center>
+            <h1 style="color: rgb(30, 255, 0) ;font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" > Input tag types </h1>
+
+            
+            <form>
+
+                <div>
+                <label style="background-color: aquamarine;"> Name </label>
+                <input type="text" aria-placeholder="Name" value="Nav" minlength="5" maxlength="25" id="na" tabindex="2" required/>
+                </div>
+
+                <div>
+                <label style="background-color: aliceblue;"> Contact Number </label>
+                <input type="number" required placeholder="enter 10 digit number" tabindex="1"/>
+                </div>
+
+                <div>
+                    <label style="background-color: blueviolet;"> Password </label>
+                    <input type="password"  placeholder="**************"/>
+                </div>
+
+                <div>
+                    <label> Select State </label>
+                    <input type="radio" /> KA  <br>
+                    <input type="radio"/> KL<br>
+                    <input type="radio"/> JK <br>
+                </div>
+
+
+                <div>
+                    <label style="border: aqua;"> Gender </label>
+                    <input type="checkbox" required/> Male <br>
+                    <input type="checkbox" required/> Female
+                </div>
+
+                <div>
+                    <label style="display: inline-flex;">  DOB </label>
+                    <input type="date" required/>
+                 </div>
+
+                 <div>
+                    <label style="box-shadow: 0pt;"> Pincode  </label>
+                    <input type="search" required/>
+                 </div>
+
+                 <div>
+                    <label> Time </label>
+                    <input type="datetime-local" />
+                 </div>
+
+                 <div>
+                    <label> Website </label>
+                    <input type="url" required translate="yes"/ >
+                 </div>
+
+                 <div>
+                    <label> Photo </label>
+                    <input type="image" />
+                 </div>
+
+                 <div>
+                    <label style="border: beige;"> Age </label>
+                    <input type="hidden" required/>
+                 </div>
+                 
+                 <div>
+                    <label> Spouse </label>
+                    <input type="tel" required/>
+                 </div>
+
+                 <div>
+                    <label> Country </label>
+                        <select onselect="red">
+                            <option selected> India </option>
+                            <option  disabled> USA </option>
+                            <option  > UK </option>
+                            <option  > AUS </option>
+                            <option > RSA </option>
+                        </select> 
+                 </div>
+
+                 <div>
+                   
+            
+                    <input type="reset" value="CLEAR"/>
+                 </div>
+            </form>
+
+
+        </center>
+    </body>
+
+</html>
