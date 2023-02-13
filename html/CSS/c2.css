@@ -1,0 +1,34 @@
+h1,p,pre,h3{
+
+ 
+  
+    background-color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration-color: brown;
+}
+
+.select{
+    background-color: crimson;
+    background-position: 200px;
+    background-image: element();
+    text-align: center;
+}
+
+#r{
+
+    background-color: burlywood;
+    text-align: center;
+}
+
+a{
+
+    background-color: blue;
+    color: brown;
+}
+
+a[target]{
+
+    background-color: yellowgreen;
+    color: darkgreen;
+}

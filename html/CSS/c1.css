@@ -1,0 +1,21 @@
+.ref{
+    background-color:yellow;
+
+
+}
+
+a{
+
+    background-color: cornflowerblue;
+}
+
+a [target]{
+
+    background-color: red;
+}
+
+para1{
+
+    border: 10px solid blue;
+    background-color: darkorchid;
+}
